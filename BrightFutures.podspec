@@ -15,9 +15,7 @@ Pod::Spec.new do |s|
 
   s.source_files = 'Sources/BrightFutures/*.swift'
 
-  s.dependency 'Result', '~> 4.0.0'
-
   s.requires_arc = true
 
-  s.pod_target_xcconfig = { 'SWIFT_VERSION' => '4.2' }
+  s.swift_version = '5'
 end
