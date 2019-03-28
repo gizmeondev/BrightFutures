@@ -6,8 +6,6 @@
 //  Copyright © 2015 Thomas Visser. All rights reserved.
 //
 
-import Result
-
 extension ResultProtocol {
 
     /// Case analysis for Result.
@@ -42,12 +40,12 @@ extension ResultProtocol where Value: ResultProtocol, Error == Value.Error {
     public func flatten() -> Result<Value.Value,Value.Error> {
         return analysis(ifSuccess: { innerRes in
             return innerRes.analysis(ifSuccess: {
-                return Result(value: $0)
+                return .success($0)
             }, ifFailure: {
-                return Result(error: $0)
+                return .failure($0)
             })
         }, ifFailure: {
-            return Result(error: $0)
+            return .failure($0)
         })
     }
 }
@@ -60,13 +58,13 @@ extension ResultProtocol where Value: AsyncType, Value.Value: ResultProtocol, Er
             analysis(ifSuccess: { innerFuture -> () in
                 innerFuture.onComplete(ImmediateExecutionContext) { res in
                     complete(res.analysis(ifSuccess: {
-                        return Result(value: $0)
+                        return .success($0)
                     }, ifFailure: {
-                        return Result(error: $0)
+                        return .failure($0)
                     }))
                 }
             }, ifFailure: {
-                complete(Result(error: $0))
+                complete(.failure($0))
             })
         }
     }

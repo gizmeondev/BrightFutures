@@ -21,7 +21,6 @@
 // SOFTWARE.
 
 import Foundation
-import Result
 
 /// A Future represents the outcome of an asynchronous operation
 /// The outcome will be represented as an instance of the `Result` enum and will be stored
@@ -46,7 +45,7 @@ public final class Future<T, E: Error>: Async<Result<T, E>> {
     }
     
     public init(value: T, delay: DispatchTimeInterval) {
-        super.init(result: Result<T, E>(value: value), delay: delay)
+        super.init(result: .success(value), delay: delay)
     }
     
     public required init<A: AsyncType>(other: A) where A.Value == Value {
@@ -58,11 +57,11 @@ public final class Future<T, E: Error>: Async<Result<T, E>> {
     }
     
     public convenience init(value: T) {
-        self.init(result: Result(value: value))
+        self.init(result: .success(value))
     }
     
     public convenience init(error: E) {
-        self.init(result: Result(error: error))
+        self.init(result: .failure(error))
     }
     
     public required init(resolver: (_ result: @escaping (Value) -> Void) -> Void) {
