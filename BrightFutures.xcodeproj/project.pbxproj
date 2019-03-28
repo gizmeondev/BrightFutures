@@ -11,7 +11,13 @@
 		5045199B216DDA7B002B3F48 /* Number+BrightFutures.swift in Sources */ = {isa = PBXBuildFile; fileRef = E98FD6F21DC3D81600DCD9C9 /* Number+BrightFutures.swift */; };
 		5045199C216DDA7B002B3F48 /* Number+BrightFutures.swift in Sources */ = {isa = PBXBuildFile; fileRef = E98FD6F21DC3D81600DCD9C9 /* Number+BrightFutures.swift */; };
 		C34BB4B4224A6D3C00921D21 /* NoError.swift in Sources */ = {isa = PBXBuildFile; fileRef = C34BB4B3224A6D3C00921D21 /* NoError.swift */; };
-		C34BB4B6224A9E3600921D21 /* ResultProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = C34BB4B5224A9E3500921D21 /* ResultProtocol.swift */; };
+		E95A8F06224CD8360028552B /* NoError.swift in Sources */ = {isa = PBXBuildFile; fileRef = C34BB4B3224A6D3C00921D21 /* NoError.swift */; };
+		E95A8F07224CD8370028552B /* NoError.swift in Sources */ = {isa = PBXBuildFile; fileRef = C34BB4B3224A6D3C00921D21 /* NoError.swift */; };
+		E95A8F08224CD8380028552B /* NoError.swift in Sources */ = {isa = PBXBuildFile; fileRef = C34BB4B3224A6D3C00921D21 /* NoError.swift */; };
+		E95A8F0C224CDABD0028552B /* ResultProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = C34BB4B5224A9E3500921D21 /* ResultProtocol.swift */; };
+		E95A8F0D224CDABE0028552B /* ResultProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = C34BB4B5224A9E3500921D21 /* ResultProtocol.swift */; };
+		E95A8F0F224CDAC10028552B /* ResultProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = C34BB4B5224A9E3500921D21 /* ResultProtocol.swift */; };
+		E95A8F10224CDAC10028552B /* ResultProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = C34BB4B5224A9E3500921D21 /* ResultProtocol.swift */; };
 		E98647A71BF327E400B6BEEE /* BrightFutures.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E986479D1BF327E400B6BEEE /* BrightFutures.framework */; };
 		E98FD6F61DC3D81600DCD9C9 /* Async.swift in Sources */ = {isa = PBXBuildFile; fileRef = E98FD6E61DC3D81600DCD9C9 /* Async.swift */; };
 		E98FD6F71DC3D81600DCD9C9 /* Async.swift in Sources */ = {isa = PBXBuildFile; fileRef = E98FD6E61DC3D81600DCD9C9 /* Async.swift */; };
@@ -652,6 +658,7 @@
 				E98FD7051DC3D81600DCD9C9 /* AsyncType+ResultType.swift in Sources */,
 				E98FD7151DC3D81600DCD9C9 /* Future.swift in Sources */,
 				E98FD7091DC3D81600DCD9C9 /* Dispatch+BrightFutures.swift in Sources */,
+				E95A8F10224CDAC10028552B /* ResultProtocol.swift in Sources */,
 				E98FD7191DC3D81600DCD9C9 /* InvalidationToken.swift in Sources */,
 				E98FD7011DC3D81600DCD9C9 /* AsyncType+Debug.swift in Sources */,
 				E98FD7211DC3D81600DCD9C9 /* MutableAsyncType+ResultType.swift in Sources */,
@@ -662,6 +669,7 @@
 				E98FD7111DC3D81600DCD9C9 /* ExecutionContext.swift in Sources */,
 				E98FD7351DC3D81600DCD9C9 /* SequenceType+BrightFutures.swift in Sources */,
 				E98FD6F91DC3D81600DCD9C9 /* Async.swift in Sources */,
+				E95A8F08224CD8380028552B /* NoError.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -691,6 +699,7 @@
 				E98FD7041DC3D81600DCD9C9 /* AsyncType+ResultType.swift in Sources */,
 				E98FD7141DC3D81600DCD9C9 /* Future.swift in Sources */,
 				E98FD7081DC3D81600DCD9C9 /* Dispatch+BrightFutures.swift in Sources */,
+				E95A8F0F224CDAC10028552B /* ResultProtocol.swift in Sources */,
 				E98FD7181DC3D81600DCD9C9 /* InvalidationToken.swift in Sources */,
 				E98FD7001DC3D81600DCD9C9 /* AsyncType+Debug.swift in Sources */,
 				E98FD7201DC3D81600DCD9C9 /* MutableAsyncType+ResultType.swift in Sources */,
@@ -701,6 +710,7 @@
 				E98FD7101DC3D81600DCD9C9 /* ExecutionContext.swift in Sources */,
 				E98FD7341DC3D81600DCD9C9 /* SequenceType+BrightFutures.swift in Sources */,
 				E98FD6F81DC3D81600DCD9C9 /* Async.swift in Sources */,
+				E95A8F07224CD8370028552B /* NoError.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -713,6 +723,7 @@
 				E98FD7031DC3D81600DCD9C9 /* AsyncType+ResultType.swift in Sources */,
 				E98FD7131DC3D81600DCD9C9 /* Future.swift in Sources */,
 				E98FD7071DC3D81600DCD9C9 /* Dispatch+BrightFutures.swift in Sources */,
+				E95A8F0D224CDABE0028552B /* ResultProtocol.swift in Sources */,
 				E98FD7171DC3D81600DCD9C9 /* InvalidationToken.swift in Sources */,
 				E98FD6FF1DC3D81600DCD9C9 /* AsyncType+Debug.swift in Sources */,
 				E98FD71F1DC3D81600DCD9C9 /* MutableAsyncType+ResultType.swift in Sources */,
@@ -723,6 +734,7 @@
 				E98FD70F1DC3D81600DCD9C9 /* ExecutionContext.swift in Sources */,
 				E98FD7331DC3D81600DCD9C9 /* SequenceType+BrightFutures.swift in Sources */,
 				E98FD6F71DC3D81600DCD9C9 /* Async.swift in Sources */,
+				E95A8F06224CD8360028552B /* NoError.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -752,7 +764,7 @@
 				E98FD7021DC3D81600DCD9C9 /* AsyncType+ResultType.swift in Sources */,
 				E98FD7121DC3D81600DCD9C9 /* Future.swift in Sources */,
 				E98FD7061DC3D81600DCD9C9 /* Dispatch+BrightFutures.swift in Sources */,
-				C34BB4B6224A9E3600921D21 /* ResultProtocol.swift in Sources */,
+				E95A8F0C224CDABD0028552B /* ResultProtocol.swift in Sources */,
 				E98FD7161DC3D81600DCD9C9 /* InvalidationToken.swift in Sources */,
 				E98FD6FE1DC3D81600DCD9C9 /* AsyncType+Debug.swift in Sources */,
 				E98FD71E1DC3D81600DCD9C9 /* MutableAsyncType+ResultType.swift in Sources */,
@@ -816,10 +828,6 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/Carthage/Build/tvOS",
-				);
 				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = Sources/BrightFutures/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
@@ -848,10 +856,6 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/Carthage/Build/tvOS",
-				);
 				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = Sources/BrightFutures/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
@@ -916,10 +920,6 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/Carthage/Build/watchOS",
-				);
 				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = Sources/BrightFutures/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
@@ -949,10 +949,6 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/Carthage/Build/watchOS",
-				);
 				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = Sources/BrightFutures/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
@@ -981,10 +977,6 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/Carthage/Build/Mac",
-				);
 				FRAMEWORK_VERSION = A;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -1018,10 +1010,6 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/Carthage/Build/Mac",
-				);
 				FRAMEWORK_VERSION = A;
 				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = Sources/BrightFutures/Info.plist;
@@ -1210,10 +1198,6 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/Carthage/Build/iOS",
-				);
 				INFOPLIST_FILE = Sources/BrightFutures/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -1237,10 +1221,6 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/Carthage/Build/iOS",
-				);
 				INFOPLIST_FILE = Sources/BrightFutures/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
