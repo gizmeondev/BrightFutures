@@ -162,7 +162,7 @@ class ResultTests: XCTestCase {
     }
     
     func testFlattenInnerSuccess() {
-        let fr = Result<Result<Int, NoError>, NoError>.success(.success(3)).flatten()
+        let fr = Result<Result<Int, Never>, Never>.success(.success(3)).flatten()
         XCTAssert(fr.isSuccess)
         XCTAssertEqual(fr.value, 3)
     }
@@ -180,7 +180,7 @@ class ResultTests: XCTestCase {
     }
     
     func testFlattenFutureInResultSuccess() {
-        let f = Result<Future<Int, NoError>, NoError>.success(Future<Int, NoError>(value: 1)).flatten()
+        let f = Result<Future<Int, Never>, Never>.success(Future<Int, Never>(value: 1)).flatten()
         XCTAssert(f.isSuccess)
         XCTAssertEqual(f.value, 1)
     }
