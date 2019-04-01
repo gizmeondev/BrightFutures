@@ -23,7 +23,7 @@ extension MutableAsyncType {
         if !tryComplete(result) {
             print(result)
             let error = "Attempted to completed an Async that is already completed. This could become a fatalError."
-            assert(false, error)
+            //assert(false, error)
             print(error)
         }
     }
